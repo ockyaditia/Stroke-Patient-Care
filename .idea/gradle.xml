@@ -8,7 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Stroke-Patient-Care" />
+            <option value="$PROJECT_DIR$/Stroke Patient Care" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
