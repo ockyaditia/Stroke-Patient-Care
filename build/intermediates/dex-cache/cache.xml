@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zambrong\Downloads\Compressed\Stroke Patient Care\Stroke-Patient-Care\libs\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\Zambrong\Downloads\Compressed\Stroke Patient Care\Stroke-Patient-Care\build\intermediates\pre-dexed\debug\glide-3.7.0_deb770b35d8e7d2f3af9878ee8e639a0cda63817.jar" />
+    </item>
+
+</items>

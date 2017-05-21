@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stroke Patient Care</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_food">Eat</string>
+    <string name="nav_medication">Medication</string>
+    <string name="nav_fast">F.A.S.T</string>
+    <string name="nav_emergency">Emergency</string>
+    <string name="nav_info">Info</string>
+    <string name="nav_makanan">Makanan</string>
+    <string name="nav_obat">Obat</string>
+    <string name="nav_rawat">Tips - Tips Merawat</string>
+    <string name="nav_about_us">About Us</string>
+
+    <string name="nav_Food">Eat</string>
+    <string name="nav_Medication">Medication</string>
+    <string name="nav_FAST">F.A.S.T</string>
+    <string name="nav_CallAmbulance">Call Ambulance</string>
+    <string name="nav_CheckCondition">Check Condition</string>
+    <string name="nav_ResultFAST">Result F.A.S.T</string>
+    <string name="nav_Resume">Resume</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Eat</item>
+        <item>Medication</item>
+        <item>Face</item>
+        <item>Emergency</item>
+        <item>Info</item>
+    </string-array>
+
+    <string-array name="nav_item_activity_titles2">
+        <item>Eat</item>
+        <item>Medication</item>
+        <item>Face</item>
+        <item>Call Ambulance</item>
+        <item>Check Condition</item>
+        <item>Result F.A.S.T</item>
+        <item>Resume</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_add">Add</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+
+    <!-- Medication Activity -->
+    <string name="medication_word1">Medication Name</string>
+    <string name="medication_word2">Time</string>
+    <string name="medication_word3">Repeat Every</string>
+    <string name="medication_word4">Hours</string>
+    <string name="medication_word5">Total Number of</string>
+    <string name="medication_word6">Pills</string>
+
+    <!-- Food Activity -->
+    <string name="food_word1">Food Name</string>
+    <string name="food_word2">Time</string>
+    <string name="food_word3">Repeat Every</string>
+    <string name="food_word4">Hours</string>
+    <string name="food_word5">Total Number of</string>
+    <string name="food_word6">Pills</string>
+
+    <!-- Emergency Activity -->
+    <string name="emergency_word1">Call Ambulance</string>
+    <string name="emergency_word2">Check Condition</string>
+    <string name="emergency_word3">Silakan masukkan tinggi badan</string>
+    <string name="emergency_word4">Silakan masukkan berat badan</string>
+    <string name="emergency_word5">BMI yang Anda hitung (Body Mass Index) adalah:</string>
+    <string name="emergency_word6">Anda merokok?</string>
+    <string name="emergency_word7">Tekanan Darah Sistolik </string>
+    <string name="emergency_word8">Penyakit Dalam Lima Tahun Berikutnya</string>
+    <string name="emergency_word9">Low Risk</string>
+    <string name="emergency_word10">High Risk</string>
+    <string name="emergency_word11">Call</string>
+    <string name="emergency_word12">cm</string>
+    <string name="emergency_word13">ft / in</string>
+    <string name="emergency_word14">kg</string>
+    <string name="emergency_word15">st / lb</string>
+    <string name="emergency_word16">Your Risk Score: </string>
+    <string name="emmergency_word17">Apakah Pasien minum lebih dari 1 minuman beralkohol standar sehari?</string>
+    <string name="emergency_word18">Apakah Pasien menggunakan obat penurun tekanan darah?</string>
+    <string name="emergency_word19">Apakah Pasien makan terakhir 6 porsi buah dan/ atau sayuran sehari?</string>
+    <string name="emergency_word20">Apakah Pasien melakukan setidaknya 2,5 jam aktivitas fisik per minggu?</string>
+    <string name="emergency_word21">Pernahkah Pasien mengalami stres mental atau emosional yang signifikan ?</string>
+    <string name="emergency_word22">Apa Pasien sakit diabetes? </string>
+    <string name="emergency_word23"> 120 mmHg </string>
+    <string name="emergency_word24">121-130 mmHg</string>
+    <string name="emergency_word25">131-140 mmHg</string>
+    <string name="emergency_word26">141-160 mmHg</string>
+    <string name="emergency_word27">161-180 mmHg</string>
+    <string name="emergency_word28">181-240 mmHg</string>
+    <string name="emergency_word29"> >240 mmHg </string>
+
+
+    <!-- Info Activity -->
+    <string name="info_word1">Makanan</string>
+    <string name="info_word2">Tips - Tips Merawat</string>
+    <string name="info_word4">Obat</string>
+    <string name="info_word5">Informasi Tensi</string>
+    <string name="info_word6">Gula Darah</string>
+    <string name="info_word7">Perubahan Sifat</string>
+    <string name="info_word8">Penyebab Stroke</string>
+    <string name="info_word9">Buku Stroke</string>
+    <string name="info_word10">Pengobatan Alternatif</string>
+    <string name="info_word11">Alat Terapi</string>
+    <string name="info_word12">Kesehatan Pendamping</string>
+    <string name="title_activity_makanan">MakananActivity</string>
+
+    <!-- F.A.S.T Activity -->
+    <string name="face">Face</string>
+    <string name="arms">Arms</string>
+    <string name="speech">Speech</string>
+    <string name="time">Time</string>
+    <string name="fast_word1">Minta pasien untuk tersenyum.</string>
+    <string name="fast_word2">Apakah pasien itu bisa tersenyum merata?</string>
+    <string name="fast_word3">Minta pasien untuk mengangkat kedua lengannya, dengan telapak tangan menghadap ke atas.</string>
+    <string name="fast_word4">Bisakah pasien mengangkat kedua lengannya secara merata?</string>
+    <string name="fast_word5">Mintalah pasien untuk berbicara dengan sederhana, seperti:</string>
+    <string name="fast_word6">"Saya merasa sangat baik hari ini"</string>
+    <string name="fast_word7">Apakah pasien mengerti Anda dan apakah pasien mengucapkan kalimat dengan jelas?</string>
+    <string name="fast_word8">The person has passed all three tests.\nHowever, if you are uncertain that the\nperson is ok, call an ambulance\nimmediately!</string>
+
+    <string name="nice_html">
+        <![CDATA[
+        <p>Bahan makanan yang dianjurkan untuk penyakit stroke:</p>
+        <p>1. Sumber Karbohidrat: Beras, Kentang, Tapioka, Ubi, Singkong, sagu, Biskuit, Bihun.</p>
+        <p>2. Sumber Protein Hewani: Daging Sapi dan Ayam tanpa kulit, Ikan, Telur Ayam, Susu Skim.</p>
+        <p>3. Sumber Protein Nabati: Semua kacang-kacangan dan produk olahan (tahu dan tempe)</p>
+        <p>4. Sayuran: Bayam, Wortel, Kangkung, Kacan Panjang, Labu Siam dan Taoge</p>
+        <p>5. Buah-buahan: Buah seger, di jus ataupun di olah dengan cara di setup, Seperti: Pisang, Pepaya, Mangga, Jambu biji, Melon dan Semmangka</p>
+        <p>6. Sumber Lemak: Minyak jagung dan Minyak kedelai, Margarine dan Mentega di konsumsi dalam jumlah terbatas, Santan encer</p>]]>
+    </string>
+    <string name="nice_html1">
+        <![CDATA[
+        <p> Tips - Tips Merawat:</p>
+        <p>1. Bila Memiliki hipertensi harus terkontrol baik dengan obat-obatan maupun pemeriksaan berkala.</p>
+        <p>2. Berhenti Merokok.</p>
+        <p>3. Mengurangi makanan yang berlemak sehingga mengurang resiko tertumpuknya lemak dalam pembuluh darah</p>
+        <p>4. Berolahraga teratur sesuai dengan kondisi kesehatan</p>
+        <p>5. Usaha berat badan tetap ideal</p>]]>
+    </string>
+    <string name="nice_html2">
+        <![CDATA[
+        <p>Tidak ada obat bagi pasien stroke, namun mengkonsumsi berbagai bahan alami akan sangat membantu penyembuhan, diantaranya adalah:</p>
+        <p><i>Daun Sirsak</i> memiliki kandungan zat yang sangat lengkap seperti fruktosa, lemak, Protein, kalsiumm, fosfor, besi, vitamin A dan Vitamin B,</p>
+	<p><i>Kulit Manggis</i> memiliki sifat melebarkan pembuluh darah yang tersumbat, menurunkan tekanan darah tinggi, menekankan aktivitas jantung, dan menurunkan kadar gula darah. Semua itu akan mencegah dan memperbaiki kesehatan pasien pasca stroke sehingga serangan stroke berulang bisa dihindari</p>]]>
+</string>
+
+    <string name="nice_html3">
+        <![CDATA[
+        <p>Pasien yang terkena stroke memiliki resiko tinggi mengalami serangan stroke ulang. Serangan stroke ulang berkisar antara 30\u0025-43\u0025 dalam kurun waktu 5 tahun setelah serangan otak sepintas, 20\u0025 pasien mengalami stroke dalam waktu 90 hari dan 50% diantaranya mengalami serangan stroke ulangdalam waktu 42-72 jam. Tekanan darah yang tinggi (tekanan darah sistolik > 40 mmHg dan tekanan darah diastolik >= 90 mmHg) akan meningkatkan resiko terjadinya stroke berulang </p>]]>
+</string>
+    <string name="nice_html4">
+        <![CDATA[
+       <p>- Guideline untuk acute ichemic stroke AHA/ASA 2013 menganjurkan untuk mengikuti target ADA, yaitu 140-180 mg/dl</p>
+       <p>- Target glukosa pasien stroke akut adalah 80-180 mg/dl, bisa 80-110 mg/dl pada pasien darurat di ICU dengan monitoring ketat]]>
+</string>
+    <string name="nice_html5">
+        <![CDATA[
+       <p>1. Memahami bahwa perilaku negatif yang dilakukan olen pasien stroke tidak bermaksud ditujukkan kepada orang disekitarnya</p>
+       <p>2. Berlakulah lebuh positif dan mendukung namun dapat tetap tegas</p>
+       <p>3. Hentikan lah kemarahan pasien stroke dengan teknik menenangkan </p>
+       <p>4. Melakukan penguatan positif pada pasien stroke</p>
+       <p>5. Mengurangi gangguan dan stimulasi</p>
+       <p>6. Mencarikan kelompok dukungan dimana pasien stroke dapat berbagi apa yang di ceritakan nya]]>
+</string>
+</resources>

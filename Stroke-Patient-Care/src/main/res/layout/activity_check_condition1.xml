@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_check_condition1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.yarsi.skripsi.activity.CheckCondition1Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/emergency_word3"
+        android:textColor="@color/logo_color"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_style1"
+        android:inputType="numberDecimal"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/logo_color_botton"
+            android:textColor="@android:color/white"
+            android:textOff="@string/emergency_word12"
+            android:textOn="@string/emergency_word12"
+            android:textSize="9sp" />
+
+        <ToggleButton
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/logo_color_botton_alternate"
+            android:textColor="@android:color/white"
+            android:textOff="@string/emergency_word13"
+            android:textOn="@string/emergency_word13"
+            android:textSize="9sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/emergency_word4"
+        android:textColor="@color/logo_color"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_style1"
+        android:inputType="numberDecimal"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/logo_color_botton"
+            android:textColor="@android:color/white"
+            android:textOff="@string/emergency_word14"
+            android:textOn="@string/emergency_word14"
+            android:textSize="9sp" />
+
+        <ToggleButton
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/logo_color_botton_alternate"
+            android:textColor="@android:color/white"
+            android:textOff="@string/emergency_word15"
+            android:textOn="@string/emergency_word15"
+            android:textSize="9sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/emergency_word5"
+        android:textColor="@color/logo_color"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" />
+
+    <Button
+        android:id="@+id/check_condition1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo_color_botton"
+        android:text="@string/next"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

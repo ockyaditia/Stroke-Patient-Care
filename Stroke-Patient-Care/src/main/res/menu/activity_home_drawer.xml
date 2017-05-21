@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/cutlery"
+            android:title="@string/nav_food" />
+        <item
+            android:id="@+id/nav_medication"
+            android:icon="@drawable/drugs_capsules_and_pills"
+            android:title="@string/nav_medication" />
+        <item
+            android:id="@+id/nav_fast"
+            android:icon="@drawable/medical"
+            android:title="@string/nav_fast" />
+        <item
+            android:id="@+id/nav_emergency"
+            android:icon="@drawable/siren_light"
+            android:title="@string/nav_emergency" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/info_sign"
+            android:title="@string/nav_info"/>
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="@string/nav_about_us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="@string/privacy_policy" />
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Logout"/>
+        </menu>
+    </item>
+
+</menu>
