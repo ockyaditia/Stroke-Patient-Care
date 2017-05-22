@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+        "outputFile": "C:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\values-w600dp-v13\\values-w600dp-v13.xml",
+                    "file": "C:\\Users\\ockysapu\\.android\\build-cache\\32b43f63561ed0ea442450413d0b2203e5f0eb0c\\output\\res\\values-w600dp-v13\\values-w600dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 169
                 },
                 "from": {
-                    "file": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\values-w600dp-v13\\values-w600dp-v13.xml",
+                    "file": "C:\\Users\\ockysapu\\.android\\build-cache\\32b43f63561ed0ea442450413d0b2203e5f0eb0c\\output\\res\\values-w600dp-v13\\values-w600dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
