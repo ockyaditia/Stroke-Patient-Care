@@ -77,6 +77,7 @@
     <string name="medication_word4">Hours</string>
     <string name="medication_word5">Total Number of</string>
     <string name="medication_word6">Pills</string>
+    <string name="medication_word7">Data Medication</string>
 
     <!-- Food Activity -->
     <string name="food_word1">Food Name</string>

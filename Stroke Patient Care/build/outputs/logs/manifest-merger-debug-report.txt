@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:2:1-97:12
+ADDED from C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:2:1-98:12
 	package
 		ADDED from C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml
@@ -77,7 +77,7 @@ ADDED from C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\s
 	android:name
 		ADDED from C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:22:9-47
 application
-ADDED from C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:25:5-95:19
+ADDED from C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:25:5-96:19
 MERGED from [com.android.support:design:23.4.0] C:\Users\ockysapu\.android\build-cache\a36fadbd36491889e2cecf576e1f242cf1691d44\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\ockysapu\.android\build-cache\32b43f63561ed0ea442450413d0b2203e5f0eb0c\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\ockysapu\.android\build-cache\e5143e79973252d9c8b49722e1f90dcdd39d8e6a\output\AndroidManifest.xml:7:5-20
@@ -234,3 +234,7 @@ activity#com.yarsi.skripsi.activity.PerubahanSifatActivity
 ADDED from C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:94:9-69
 	android:name
 		ADDED from C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:94:19-66
+activity#com.yarsi.skripsi.activity.MedicationDataActivity
+ADDED from C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:95:9-78
+	android:name
+		ADDED from C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:95:19-66

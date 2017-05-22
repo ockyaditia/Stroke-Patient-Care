@@ -1,20 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context="com.yarsi.skripsi.fragment.MedicationFragment">
 
-    <GridView
-        android:id="@+id/gridView"
-        android:layout_width="fill_parent"
+    <Button
+        android:id="@+id/data_medication"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:clickable="true"
-        android:columnWidth="100dp"
-        android:drawSelectorOnTop="true"
-        android:focusable="true"
-        android:gravity="center"
-        android:numColumns="auto_fit"
-        android:stretchMode="columnWidth"
-        android:verticalSpacing="5dp" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/logo_color_botton"
+        android:text="@string/medication_word7"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
 
-</RelativeLayout>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:alpha="0.3"
+        android:src="@drawable/drugs_capsules_and_pills" />
+
+</FrameLayout>

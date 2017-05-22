@@ -204,7 +204,7 @@ public class MedicationActivity extends AppCompatActivity {
                         // Launch ... activity
                         Intent intent = new Intent(
                                 MedicationActivity.this,
-                                MainActivity.class);
+                                MedicationDataActivity.class);
                         startActivity(intent);
                         finish();
                     } else {
