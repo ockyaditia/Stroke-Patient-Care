@@ -76,6 +76,8 @@ public class MedicationActivity extends AppCompatActivity {
     private SessionManager session;
     private SQLiteHandler db;
 
+    private String imagePath;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -161,8 +163,14 @@ public class MedicationActivity extends AppCompatActivity {
 
                 String username = user.get("name");
 
-                if (!name.isEmpty() && !time.isEmpty() && !total.isEmpty()) {
-                    insertMedication(username, name, time, repeat, total);
+                if (!name.isEmpty() && !time.isEmpty() && !repeat.isEmpty() && !total.isEmpty()) {
+                    if (imagePath == null) {
+                        Toast.makeText(getApplicationContext(),
+                                "Please choose image!", Toast.LENGTH_LONG)
+                                .show();
+                    } else {
+                        insertMedication(username, name, time, repeat, total, imagePath);
+                    }
                 } else {
                     Toast.makeText(getApplicationContext(),
                             "Please enter your details!", Toast.LENGTH_LONG)
@@ -173,7 +181,7 @@ public class MedicationActivity extends AppCompatActivity {
     }
 
     private void insertMedication(final String username, final String name, final String time,
-                                  final String repeat, final String total) {
+                                  final String repeat, final String total, final String image) {
         // Tag used to cancel the request
         String tag_string_req = "req_register";
 
@@ -232,6 +240,7 @@ public class MedicationActivity extends AppCompatActivity {
                 params.put("time", time);
                 params.put("repeat", repeat);
                 params.put("total", total);
+                params.put("image", image);
 
                 return params;
             }
@@ -429,7 +438,15 @@ public class MedicationActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
         }
+        imagePath = getPath(data.getData());
         imgPreview.setImageBitmap(bm);
+    }
+
+    public String getPath(Uri uri) {
+        Cursor cursor = getContentResolver().query(uri, null, null, null, null);
+        cursor.moveToFirst();
+        int idx = cursor.getColumnIndex(MediaStore.Images.ImageColumns.DATA);
+        return cursor.getString(idx);
     }
 
     /* Get the real path from the URI */
@@ -461,6 +478,7 @@ public class MedicationActivity extends AppCompatActivity {
             final Bitmap bitmap = BitmapFactory.decodeFile(fileUri.getPath(),
                     options);
 
+            imagePath = fileUri.getPath();
             imgPreview.setImageBitmap(bitmap);
         } catch (NullPointerException e) {
             e.printStackTrace();

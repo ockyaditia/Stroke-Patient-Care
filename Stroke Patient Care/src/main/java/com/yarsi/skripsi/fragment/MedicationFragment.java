@@ -2,6 +2,7 @@ package com.yarsi.skripsi.fragment;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.ConnectivityManager;
@@ -9,6 +10,7 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -30,6 +32,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -153,30 +156,8 @@ public class MedicationFragment extends Fragment {
                 JSONArray mJsonArray = json.getJSONArray("medication");
 
                 for (int i = 0; i < mJsonArray.length(); i++) {
-
-//                    if (mJsonArray.getJSONObject(i).getString("produk_keywords") != null) {
-//
-//                        String image = mJsonArray.getJSONObject(i).getString("produk_gambar");
-//
-//                        if (image.contains(".jpg")) {
-//                            image = image.replace(".jpg", "");
-//                        }
-//
-//                        if (image.contains(".png")) {
-//                            image = image.replace(".png", "");
-//                        }
-//
-//                        if (image.contains(".jpeg")) {
-//                            image = image.replace(".jpeg", "");
-//                        }
-
-                    Log.i("Response M. Name ", mJsonArray.getJSONObject(i).getString("Medication_Name"));
-                    Log.i("Response Time ", mJsonArray.getJSONObject(i).getString("Time"));
-
-                    Bitmap bitmap = BitmapFactory.decodeResource(getResources(),
-                            getResources().getIdentifier("computer.png", "drawable", getActivity().getPackageName()));
+                    Bitmap bitmap = capturedImage(mJsonArray.getJSONObject(i).getString("Image"));
                     imageItems.add(new ImageItem(bitmap, mJsonArray.getJSONObject(i).getString("Medication_Name"), mJsonArray.getJSONObject(i).getString("Time")));
-//                    }
                 }
 
             } catch (JSONException e) {
@@ -188,6 +169,39 @@ public class MedicationFragment extends Fragment {
         }
 
         return imageItems;
+    }
+
+    private Uri fileUri;
+
+    private Bitmap capturedImage(String path) {
+        try {
+            // bitmap factory
+            BitmapFactory.Options options = new BitmapFactory.Options();
+
+            // downsizing image as it throws OutOfMemory Exception for larger
+            // images
+            options.inSampleSize = 8;
+
+            final Bitmap bitmap = BitmapFactory.decodeFile(path,
+                    options);
+
+            return bitmap;
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    private Bitmap galeryImage(Uri path) {
+        Bitmap bitmap = null;
+        try {
+            bitmap = MediaStore.Images.Media.getBitmap(getActivity().getContentResolver(), path);
+            return bitmap;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     public boolean isInternetConnected(String mUrl) {
