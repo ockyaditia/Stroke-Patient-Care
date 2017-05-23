@@ -17,4 +17,7 @@ public class AppConfig {
 
     // Server user medication url
     public static String URL_GET_MEDICATION = "http://gatrine.hol.es/get_medication.php";
+
+    // Server user delete medication url
+    public static String URL_DELETE_MEDICATION = "http://gatrine.hol.es/delete_medication.php";
 }

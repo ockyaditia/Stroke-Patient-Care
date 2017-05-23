@@ -10,12 +10,14 @@ public class ImageItem {
     private Bitmap image;
     private String title;
     private String id;
+    private String id_to_be_deleted;
 
-    public ImageItem(Bitmap image, String title, String id) {
+    public ImageItem(Bitmap image, String title, String id, String id_to_be_deleted) {
         super();
         this.image = image;
         this.title = title;
         this.id = id;
+        this.id_to_be_deleted = id_to_be_deleted;
     }
 
     public Bitmap getImage() {
@@ -40,5 +42,9 @@ public class ImageItem {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public String getIdTobeDeleted() {
+        return id_to_be_deleted;
     }
 }

@@ -92,7 +92,9 @@
         <activity android:name="com.yarsi.skripsi.activity.CheckCondition4Activity" />
         <activity android:name="com.yarsi.skripsi.activity.CheckCondition5Activity" />
         <activity android:name="com.yarsi.skripsi.activity.PerubahanSifatActivity" />
-        <activity android:name="com.yarsi.skripsi.activity.MedicationDataActivity" />
+        <activity
+            android:name="com.yarsi.skripsi.activity.MedicationDataActivity"
+            android:label="@string/medication_word7" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

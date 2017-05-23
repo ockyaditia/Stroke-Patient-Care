@@ -6,25 +6,25 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1495439639122"
+    timestamp="1495504745915"
     token="1635283364836050571"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="484" />
+        duration="416" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="10" />
+        duration="6" />
     <task
         name="verifier"
         duration="3" />
 
     <artifact
-        location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
         location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\outputs\apk\Stroke Patient Care-debug.apk"
@@ -32,8 +32,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1495439507760"
+        timestamp="1495504219137"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\outputs\apk\Stroke Patient Care-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
@@ -67,16 +70,21 @@
         <artifact
             location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1495504658844"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\outputs\apk\Stroke Patient Care-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1495439639122"
+        timestamp="1495504745915"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\outputs\apk\Stroke Patient Care-debug.apk"

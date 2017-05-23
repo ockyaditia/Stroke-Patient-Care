@@ -92,7 +92,9 @@
         <activity android:name=".activity.CheckCondition4Activity" />
         <activity android:name=".activity.CheckCondition5Activity" />
         <activity android:name=".activity.PerubahanSifatActivity" />
-        <activity android:name=".activity.MedicationDataActivity"></activity>
+        <activity
+            android:name=".activity.MedicationDataActivity"
+            android:label="@string/medication_word7"></activity>
     </application>
 
 </manifest>

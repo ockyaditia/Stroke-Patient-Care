@@ -117,6 +117,7 @@
     <string name="emergency_word27">161-180 mmHg</string>
     <string name="emergency_word28">181-240 mmHg</string>
     <string name="emergency_word29"> >240 mmHg </string>
+    <string name="emergency_word30">Pertolongan Pertama</string>
 
 
     <!-- Info Activity -->
