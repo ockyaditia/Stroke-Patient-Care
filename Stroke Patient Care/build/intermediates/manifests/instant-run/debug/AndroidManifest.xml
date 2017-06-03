@@ -96,6 +96,12 @@
             android:name="com.yarsi.skripsi.activity.MedicationDataActivity"
             android:label="@string/medication_word7" />
 
+        <service
+            android:name="com.yarsi.skripsi.activity.MyAlarmService"
+            android:enabled="true" />
+
+        <receiver android:name="com.yarsi.skripsi.activity.MyReceiver" />
+
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
             android:authorities="com.yarsi.skripsi.com.android.tools.fd.runtime.InstantRunContentProvider"

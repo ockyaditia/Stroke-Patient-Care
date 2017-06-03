@@ -3,39 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f85f25262fe245f506b07c2674639b0d133640c5">
+        <dex dex="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6f39f40ad4349d2db7287520bd7c3d7c37125062\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ac17318f0590b46bc9e4fb23c9573c49c2219b0c\classes.dex" />
+        <dex dex="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_62fe49936b99dee66532b069d70aa2eb2a3ee3b2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1cd67475f7d418ee98fb8eef9cadc6790f03c398">
-        <dex dex="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ef2c9ba53f94f8f474eae443300fc4860abb4cc4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\libs\volley.jar"
+        jar="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\libs\volley.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="fe4b50d0b8af44fce7a238fe146c7a3957074aa5">
-        <dex dex="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\transforms\dex\debug\folders\1000\2\volley_8523ca3734d3c5864220cedc41d0b4ad04a5df09\classes.dex" />
+        <dex dex="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\transforms\dex\debug\folders\1000\2\volley_3bd1bac7d968f61e504967b3607dc58343c50779\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\libs\glide-3.7.0.jar"
+        jar="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\libs\glide-3.7.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\transforms\dex\debug\folders\1000\2\glide-3.7.0_505471359c0f3d11146fcf5ecb43d00ecc6e1aaf\classes.dex" />
+        <dex dex="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\transforms\dex\debug\folders\1000\2\glide-3.7.0_f85740cd9a9a914065aea1f771d8bc744e7932c7\classes.dex" />
     </item>
 
 </items>

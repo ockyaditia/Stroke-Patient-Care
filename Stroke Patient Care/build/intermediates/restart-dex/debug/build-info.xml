@@ -6,88 +6,105 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1495504745915"
-    token="1635283364836050571"
+    timestamp="1496509846382"
+    token="-3717961041947913745"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="416" />
+        duration="1128" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="6" />
+        duration="51" />
     <task
         name="verifier"
-        duration="3" />
+        duration="20" />
 
     <artifact
-        location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\outputs\apk\Stroke Patient Care-debug.apk"
+        location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\outputs\apk\Stroke Patient Care-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1495504219137"
+        timestamp="1496499514558"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\outputs\apk\Stroke Patient Care-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1495504658844"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\outputs\apk\Stroke Patient Care-debug.apk"
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\outputs\apk\Stroke Patient Care-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1495504745915"
+        timestamp="1496507095427"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Android Workspace\GitHub\Stroke-Patient-Care\Stroke Patient Care\build\outputs\apk\Stroke Patient Care-debug.apk"
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1496509680686"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\outputs\apk\Stroke Patient Care-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1496509846382"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\outputs\apk\Stroke Patient Care-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 

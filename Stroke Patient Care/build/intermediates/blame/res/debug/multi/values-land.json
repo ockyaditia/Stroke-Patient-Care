@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "outputFile": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "C:\\Users\\ockysapu\\.android\\build-cache\\32b43f63561ed0ea442450413d0b2203e5f0eb0c\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\ockysapu\\.android\\build-cache\\32b43f63561ed0ea442450413d0b2203e5f0eb0c\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 254
                 },
                 "from": {
-                    "file": "C:\\Users\\ockysapu\\.android\\build-cache\\32b43f63561ed0ea442450413d0b2203e5f0eb0c\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 318
                 },
                 "from": {
-                    "file": "C:\\Users\\ockysapu\\.android\\build-cache\\32b43f63561ed0ea442450413d0b2203e5f0eb0c\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 389
                 },
                 "from": {
-                    "file": "C:\\Users\\ockysapu\\.android\\build-cache\\32b43f63561ed0ea442450413d0b2203e5f0eb0c\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 457
                 },
                 "from": {
-                    "file": "C:\\Users\\ockysapu\\.android\\build-cache\\32b43f63561ed0ea442450413d0b2203e5f0eb0c\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -126,7 +126,7 @@
                     "endOffset": 639
                 },
                 "from": {
-                    "file": "C:\\Users\\ockysapu\\.android\\build-cache\\a36fadbd36491889e2cecf576e1f242cf1691d44\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\Hp\\.android\\build-cache\\0be46e02345535224bb3ba03152414e07c38ebbc\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

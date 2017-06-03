@@ -1,7 +1,7 @@
-#Tue May 23 08:50:21 ICT 2017
-base.0=C\:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ef2c9ba53f94f8f474eae443300fc4860abb4cc4
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ac17318f0590b46bc9e4fb23c9573c49c2219b0c\\classes.dex
-base.1=C\:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ac17318f0590b46bc9e4fb23c9573c49c2219b0c
-file.0=C\:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ef2c9ba53f94f8f474eae443300fc4860abb4cc4\\classes.dex
+#Sat Jun 03 23:25:07 ICT 2017
+base.0=H\:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6f39f40ad4349d2db7287520bd7c3d7c37125062
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=H\:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_62fe49936b99dee66532b069d70aa2eb2a3ee3b2\\classes.dex
+base.1=H\:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_62fe49936b99dee66532b069d70aa2eb2a3ee3b2
+file.0=H\:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6f39f40ad4349d2db7287520bd7c3d7c37125062\\classes.dex

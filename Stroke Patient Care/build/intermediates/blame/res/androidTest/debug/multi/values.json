@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\ockysapu\\.android\\build-cache\\5758b50ad8cfe9f7fd606b97e013ecf0f6dabfd2\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Hp\\.android\\build-cache\\8679430ef7231590ff340a20ffb6ce5dc11a7da9\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

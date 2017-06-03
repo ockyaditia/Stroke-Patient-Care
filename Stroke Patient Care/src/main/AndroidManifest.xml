@@ -95,6 +95,13 @@
         <activity
             android:name=".activity.MedicationDataActivity"
             android:label="@string/medication_word7"></activity>
+
+
+        <service android:name=".activity.MyAlarmService"
+            android:enabled="true" />
+
+        <receiver android:name=".activity.MyReceiver"/>
+
     </application>
 
 </manifest>

@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\menu\\notifications.xml",
-        "source": "C:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\menu\\notifications.xml"
+        "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\menu\\home.xml",
+        "source": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\menu\\home.xml"
     },
     {
-        "merged": "C:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\menu\\activity_home_drawer.xml",
-        "source": "C:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\menu\\activity_home_drawer.xml"
+        "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "C:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\menu\\main.xml"
+        "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\menu\\activity_home_drawer.xml",
+        "source": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\menu\\activity_home_drawer.xml"
     },
     {
-        "merged": "C:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\menu\\home.xml",
-        "source": "C:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\menu\\home.xml"
+        "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "C:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "C:\\Android Workspace\\GitHub\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\menu\\notifications.xml",
+        "source": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\menu\\notifications.xml"
     }
 ]

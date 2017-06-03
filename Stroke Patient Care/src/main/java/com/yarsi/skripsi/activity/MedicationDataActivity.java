@@ -1,6 +1,9 @@
 package com.yarsi.skripsi.activity;
 
+import android.app.AlarmManager;
 import android.app.AlertDialog;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -33,6 +36,7 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 
@@ -277,5 +281,16 @@ public class MedicationDataActivity extends AppCompatActivity {
         }
 
         showAlertDialog(this, "Success", "Delete Success", true);
+
+        PendingIntent pendingIntent;
+
+        Intent intent2 = new Intent(MedicationDataActivity.this, MyReceiver.class);
+        pendingIntent = PendingIntent.getBroadcast(MedicationDataActivity.this, 0, intent2, 0);
+
+        AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+        alarmManager.cancel(pendingIntent);
+
+        NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        manager.cancel(001);
     }
 }

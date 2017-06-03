@@ -2,6 +2,8 @@ package com.yarsi.skripsi.activity;
 
 import android.Manifest;
 import android.app.Activity;
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -201,12 +203,33 @@ public class MedicationActivity extends AppCompatActivity {
                     JSONObject jObj = new JSONObject(response);
                     boolean error = jObj.getBoolean("error");
                     if (!error) {
+
                         // Launch ... activity
                         Intent intent = new Intent(
                                 MedicationActivity.this,
                                 MedicationDataActivity.class);
                         startActivity(intent);
                         finish();
+
+                        PendingIntent pendingIntent;
+
+                        Calendar calendar = Calendar.getInstance();
+
+//                        calendar.set(Calendar.HOUR_OF_DAY, calendar.get(Calendar.HOUR_OF_DAY));
+//                        calendar.set(Calendar.MINUTE, calendar.get(Calendar.MINUTE));
+//                        calendar.set(Calendar.SECOND, 0);
+
+                        long interval = Integer.parseInt(repeat) * 60;
+
+                        Intent intent2 = new Intent(MedicationActivity.this, MyReceiver.class);
+                        intent2.putExtra("Nama", name);
+                        intent2.putExtra("Total", total);
+                        pendingIntent = PendingIntent.getBroadcast(MedicationActivity.this, 0, intent2, 0);
+
+                        AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+
+                        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), (interval * 60 * 1000), pendingIntent);
+//                        alarmManager.set(AlarmManager.RTC, calendar.getTimeInMillis(), pendingIntent);
                     } else {
 
                         // Error occurred in registration. Get the error
