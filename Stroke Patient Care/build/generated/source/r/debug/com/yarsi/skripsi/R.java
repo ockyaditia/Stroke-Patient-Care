@@ -3079,59 +3079,57 @@ containing a value of this type.
         public static final int activity_check_condition5=0x7f04001f;
         public static final int activity_check_condition_result=0x7f040020;
         public static final int activity_emergency=0x7f040021;
-        public static final int activity_fast=0x7f040022;
-        public static final int activity_fast1=0x7f040023;
-        public static final int activity_fast2=0x7f040024;
-        public static final int activity_fast3=0x7f040025;
-        public static final int activity_fast4=0x7f040026;
-        public static final int activity_fast_result=0x7f040027;
-        public static final int activity_food=0x7f040028;
-        public static final int activity_gula_darah=0x7f040029;
-        public static final int activity_info=0x7f04002a;
-        public static final int activity_informasi_tensi=0x7f04002b;
-        public static final int activity_login=0x7f04002c;
-        public static final int activity_main=0x7f04002d;
-        public static final int activity_makanan=0x7f04002e;
-        public static final int activity_medication=0x7f04002f;
-        public static final int activity_medication_data=0x7f040030;
-        public static final int activity_obat=0x7f040031;
-        public static final int activity_perubahan_sifat=0x7f040032;
-        public static final int activity_privacy_policy=0x7f040033;
-        public static final int activity_register=0x7f040034;
-        public static final int activity_tips_merawat=0x7f040035;
-        public static final int app_bar_main=0x7f040036;
-        public static final int design_bottom_sheet_dialog=0x7f040037;
-        public static final int design_layout_snackbar=0x7f040038;
-        public static final int design_layout_snackbar_include=0x7f040039;
-        public static final int design_layout_tab_icon=0x7f04003a;
-        public static final int design_layout_tab_text=0x7f04003b;
-        public static final int design_menu_item_action_area=0x7f04003c;
-        public static final int design_navigation_item=0x7f04003d;
-        public static final int design_navigation_item_header=0x7f04003e;
-        public static final int design_navigation_item_separator=0x7f04003f;
-        public static final int design_navigation_item_subheader=0x7f040040;
-        public static final int design_navigation_menu=0x7f040041;
-        public static final int design_navigation_menu_item=0x7f040042;
-        public static final int fragment_emergency=0x7f040043;
-        public static final int fragment_fast=0x7f040044;
-        public static final int fragment_food=0x7f040045;
-        public static final int fragment_info=0x7f040046;
-        public static final int fragment_medication=0x7f040047;
-        public static final int grid_item_layout=0x7f040048;
-        public static final int menu_dot=0x7f040049;
-        public static final int nav_header_main=0x7f04004a;
-        public static final int notification_media_action=0x7f04004b;
-        public static final int notification_media_cancel_action=0x7f04004c;
-        public static final int notification_template_big_media=0x7f04004d;
-        public static final int notification_template_big_media_narrow=0x7f04004e;
-        public static final int notification_template_lines=0x7f04004f;
-        public static final int notification_template_media=0x7f040050;
-        public static final int notification_template_part_chronometer=0x7f040051;
-        public static final int notification_template_part_time=0x7f040052;
-        public static final int select_dialog_item_material=0x7f040053;
-        public static final int select_dialog_multichoice_material=0x7f040054;
-        public static final int select_dialog_singlechoice_material=0x7f040055;
-        public static final int support_simple_spinner_dropdown_item=0x7f040056;
+        public static final int activity_fast2=0x7f040022;
+        public static final int activity_fast3=0x7f040023;
+        public static final int activity_fast4=0x7f040024;
+        public static final int activity_fast_result=0x7f040025;
+        public static final int activity_food=0x7f040026;
+        public static final int activity_gula_darah=0x7f040027;
+        public static final int activity_info=0x7f040028;
+        public static final int activity_informasi_tensi=0x7f040029;
+        public static final int activity_login=0x7f04002a;
+        public static final int activity_main=0x7f04002b;
+        public static final int activity_makanan=0x7f04002c;
+        public static final int activity_medication=0x7f04002d;
+        public static final int activity_medication_data=0x7f04002e;
+        public static final int activity_obat=0x7f04002f;
+        public static final int activity_perubahan_sifat=0x7f040030;
+        public static final int activity_privacy_policy=0x7f040031;
+        public static final int activity_register=0x7f040032;
+        public static final int activity_tips_merawat=0x7f040033;
+        public static final int app_bar_main=0x7f040034;
+        public static final int design_bottom_sheet_dialog=0x7f040035;
+        public static final int design_layout_snackbar=0x7f040036;
+        public static final int design_layout_snackbar_include=0x7f040037;
+        public static final int design_layout_tab_icon=0x7f040038;
+        public static final int design_layout_tab_text=0x7f040039;
+        public static final int design_menu_item_action_area=0x7f04003a;
+        public static final int design_navigation_item=0x7f04003b;
+        public static final int design_navigation_item_header=0x7f04003c;
+        public static final int design_navigation_item_separator=0x7f04003d;
+        public static final int design_navigation_item_subheader=0x7f04003e;
+        public static final int design_navigation_menu=0x7f04003f;
+        public static final int design_navigation_menu_item=0x7f040040;
+        public static final int fragment_emergency=0x7f040041;
+        public static final int fragment_fast=0x7f040042;
+        public static final int fragment_food=0x7f040043;
+        public static final int fragment_info=0x7f040044;
+        public static final int fragment_medication=0x7f040045;
+        public static final int grid_item_layout=0x7f040046;
+        public static final int menu_dot=0x7f040047;
+        public static final int nav_header_main=0x7f040048;
+        public static final int notification_media_action=0x7f040049;
+        public static final int notification_media_cancel_action=0x7f04004a;
+        public static final int notification_template_big_media=0x7f04004b;
+        public static final int notification_template_big_media_narrow=0x7f04004c;
+        public static final int notification_template_lines=0x7f04004d;
+        public static final int notification_template_media=0x7f04004e;
+        public static final int notification_template_part_chronometer=0x7f04004f;
+        public static final int notification_template_part_time=0x7f040050;
+        public static final int select_dialog_item_material=0x7f040051;
+        public static final int select_dialog_multichoice_material=0x7f040052;
+        public static final int select_dialog_singlechoice_material=0x7f040053;
+        public static final int support_simple_spinner_dropdown_item=0x7f040054;
     }
     public static final class menu {
         public static final int activity_home_drawer=0x7f0e0000;
@@ -3292,6 +3290,11 @@ containing a value of this type.
         public static final int Animation_Design_BottomSheetDialog=0x7f09008d;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        
          */
         public static final int AppBaseTheme=0x7f09000c;
         public static final int AppTheme=0x7f09008e;

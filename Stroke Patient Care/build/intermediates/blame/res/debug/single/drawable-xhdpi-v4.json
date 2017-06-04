@@ -164,12 +164,12 @@
         "source": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
         "source": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",

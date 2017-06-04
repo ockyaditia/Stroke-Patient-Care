@@ -84,7 +84,8 @@ public class FASTFragment extends Fragment {
             public void onClick(View v) {
                 Intent i = new Intent(getActivity(),
                         FAST2Activity.class);
-                startActivity(i);
+                i.putExtra("FAST1", "Yes");
+                startActivityForResult(i, 0);
             }
         });
 
@@ -93,7 +94,8 @@ public class FASTFragment extends Fragment {
             public void onClick(View v) {
                 Intent i = new Intent(getActivity(),
                         FAST2Activity.class);
-                startActivity(i);
+                i.putExtra("FAST1", "No");
+                startActivityForResult(i, 0);
             }
         });
 

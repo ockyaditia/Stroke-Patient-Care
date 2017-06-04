@@ -1,4 +1,4 @@
-#Sun Jun 04 19:14:52 ICT 2017
+#Sun Jun 04 21:28:40 ICT 2017
 file.2=H\:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\constraint-layout-solver-1.0.2_4b53e22aa8f4bd8408d5756f8a37cf02929b9411\\classes.dex
 base.2=H\:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\constraint-layout-solver-1.0.2_4b53e22aa8f4bd8408d5756f8a37cf02929b9411
 file.1=H\:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\glide-3.7.0_f85740cd9a9a914065aea1f771d8bc744e7932c7\\classes.dex

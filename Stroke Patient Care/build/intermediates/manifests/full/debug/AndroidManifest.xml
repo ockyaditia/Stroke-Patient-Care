@@ -60,9 +60,6 @@
         <activity
             android:name="com.yarsi.skripsi.activity.MedicationActivity"
             android:label="@string/nav_medication" />
-        <activity
-            android:name="com.yarsi.skripsi.activity.FAST1Activity"
-            android:label="@string/face" />
         <activity android:name="com.yarsi.skripsi.activity.CheckCondition1Activity" />
         <activity android:name="com.yarsi.skripsi.activity.CheckCondition2Activity" />
         <activity android:name="com.yarsi.skripsi.activity.CheckCondition3Activity" />

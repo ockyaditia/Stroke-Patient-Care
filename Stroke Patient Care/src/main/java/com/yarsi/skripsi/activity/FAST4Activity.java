@@ -34,9 +34,25 @@ public class FAST4Activity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void confirmButton(View view) {
+    public void confirmButtonYes(View view) {
+        Intent intent = getIntent();
         Intent i = new Intent(getApplicationContext(),
                 FASTResultActivity.class);
-        startActivity(i);
+        i.putExtra("FAST1", intent.getStringExtra("FAST1"));
+        i.putExtra("FAST2", intent.getStringExtra("FAST2"));
+        i.putExtra("FAST3", intent.getStringExtra("FAST3"));
+        i.putExtra("FAST4", "Yes");
+        startActivityForResult(i, 0);
+    }
+
+    public void confirmButtonNo(View view) {
+        Intent intent = getIntent();
+        Intent i = new Intent(getApplicationContext(),
+                FASTResultActivity.class);
+        i.putExtra("FAST1", intent.getStringExtra("FAST1"));
+        i.putExtra("FAST2", intent.getStringExtra("FAST2"));
+        i.putExtra("FAST3", intent.getStringExtra("FAST3"));
+        i.putExtra("FAST4", "No");
+        startActivityForResult(i, 0);
     }
 }

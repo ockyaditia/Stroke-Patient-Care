@@ -4,10 +4,6 @@
         "source": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\layout\\fragment_emergency.xml"
     },
     {
-        "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fast1.xml",
-        "source": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\layout\\activity_fast1.xml"
-    },
-    {
         "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
@@ -226,10 +222,6 @@
     {
         "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fast.xml",
-        "source": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\layout\\activity_fast.xml"
     },
     {
         "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarm_receiver.xml",
