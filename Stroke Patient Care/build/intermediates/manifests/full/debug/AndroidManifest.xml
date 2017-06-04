@@ -101,6 +101,10 @@
             android:enabled="true" />
 
         <receiver android:name="com.yarsi.skripsi.activity.MyReceiver" />
+
+        <activity
+            android:name="com.yarsi.skripsi.activity.CheckConditionResultActivity"
+            android:label="@string/emergency_word31" />
     </application>
 
 </manifest>

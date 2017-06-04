@@ -102,6 +102,10 @@
 
         <receiver android:name="com.yarsi.skripsi.activity.MyReceiver" />
 
+        <activity
+            android:name="com.yarsi.skripsi.activity.CheckConditionResultActivity"
+            android:label="@string/emergency_word31" />
+
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
             android:authorities="com.yarsi.skripsi.com.android.tools.fd.runtime.InstantRunContentProvider"

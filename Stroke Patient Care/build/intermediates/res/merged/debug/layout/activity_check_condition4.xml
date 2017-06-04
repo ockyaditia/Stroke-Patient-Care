@@ -20,18 +20,19 @@
         android:textSize="18sp" />
 
     <RadioGroup
+        android:id="@+id/stress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp">
 
         <RadioButton
-            android:id="@+id/condition4_yes"
+            android:id="@+id/condition1_yes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Yes" />
 
         <RadioButton
-            android:id="@+id/condition4_no"
+            android:id="@+id/condition1_no"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="No" />
@@ -45,20 +46,24 @@
         android:text="@string/emergency_word19"
         android:textColor="@color/logo_color"
         android:textSize="18sp" />
+
     <RadioGroup
+        android:id="@+id/makan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp">
+
         <RadioButton
-            android:id="@+id/condition"
+            android:id="@+id/condition2_yes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yes"/>
+            android:text="Yes" />
+
         <RadioButton
-            android:id="@+id/check_condition1"
+            android:id="@+id/condition2_no"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No"/>
+            android:text="No" />
 
     </RadioGroup>
 
@@ -69,24 +74,26 @@
         android:text="@string/emergency_word20"
         android:textColor="@color/logo_color"
         android:textSize="18sp" />
+
     <RadioGroup
+        android:id="@+id/aktivitas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp">
+
         <RadioButton
-            android:id="@+id/condition4"
+            android:id="@+id/condition3_yes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yes"/>
+            android:text="Yes" />
+
         <RadioButton
-            android:id="@+id/check_condition"
+            android:id="@+id/condition3_no"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No"/>
+            android:text="No" />
 
     </RadioGroup>
-
-
 
     <Button
         android:id="@+id/check_condition2"

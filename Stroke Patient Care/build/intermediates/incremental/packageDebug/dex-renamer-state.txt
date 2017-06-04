@@ -1,4 +1,4 @@
-#Sat Jun 03 23:25:07 ICT 2017
+#Sun Jun 04 14:45:50 ICT 2017
 base.0=H\:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6f39f40ad4349d2db7287520bd7c3d7c37125062
 renamed.1=classes2.dex
 renamed.0=classes.dex

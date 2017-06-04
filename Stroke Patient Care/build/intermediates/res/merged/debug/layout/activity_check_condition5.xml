@@ -15,116 +15,127 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:text="@string/emergency_word7"
-        android:textColor="@color/logo_color"
-        android:textSize="18sp" />
 
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp">
-
-        <RadioButton
-            android:id="@+id/condition5_1"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/emergency_word23" />
+            android:layout_marginBottom="10dp"
+            android:text="@string/emergency_word7"
+            android:textColor="@color/logo_color"
+            android:textSize="18sp" />
 
-        <RadioButton
-            android:id="@+id/condition5_2"
+        <RadioGroup
+            android:id="@+id/tekanan_darah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/emergency_word24" />
-        <RadioButton
-            android:id="@+id/condition5_3"
+            android:layout_marginBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/condition5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emergency_word23" />
+
+            <RadioButton
+                android:id="@+id/condition5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emergency_word24" />
+
+            <RadioButton
+                android:id="@+id/condition5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emergency_word25" />
+
+            <RadioButton
+                android:id="@+id/condition5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emergency_word26" />
+
+            <RadioButton
+                android:id="@+id/condition5_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emergency_word27" />
+
+            <RadioButton
+                android:id="@+id/condition5_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emergency_word28" />
+
+            <RadioButton
+                android:id="@+id/condition5_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emergency_word29" />
+
+        </RadioGroup>
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/emergency_word25" />
+            android:layout_marginBottom="10dp"
+            android:text="@string/emergency_word22"
+            android:textColor="@color/logo_color"
+            android:textSize="18sp" />
 
-        <RadioButton
-            android:id="@+id/condition5_4"
+        <RadioGroup
+            android:id="@+id/diabetes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/emergency_word26" />
-        <RadioButton
-            android:id="@+id/condition5_5"
+            android:layout_marginBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/condition1_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/condition1_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+
+        </RadioGroup>
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/emergency_word27" />
+            android:layout_marginBottom="10dp"
+            android:text="@string/emergency_word18"
+            android:textColor="@color/logo_color"
+            android:textSize="18sp" />
 
-        <RadioButton
-            android:id="@+id/condition5_6"
+        <RadioGroup
+            android:id="@+id/penurun_tekanan_darah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/emergency_word28" />
-        <RadioButton
-            android:id="@+id/condition5_7"
-            android:layout_width="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/condition2_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/condition2_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/check_condition2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/emergency_word29" />
-
-    </RadioGroup>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:text="@string/emergency_word22"
-        android:textColor="@color/logo_color"
-        android:textSize="18sp" />
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp">
-        <RadioButton
-            android:id="@+id/condition"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Yes"/>
-        <RadioButton
-            android:id="@+id/check_condition5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="No"/>
-
-    </RadioGroup>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:text="@string/emergency_word18"
-        android:textColor="@color/logo_color"
-        android:textSize="18sp" />
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp">
-        <RadioButton
-            android:id="@+id/condition5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Yes"/>
-        <RadioButton
-            android:id="@+id/check_condition"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="No"/>
-
-    </RadioGroup>
-
-
-
-    <Button
-        android:id="@+id/check_condition2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/logo_color_botton"
-        android:text="@string/next"
-        android:textColor="@android:color/white" />
+            android:background="@drawable/logo_color_botton"
+            android:text="@string/next"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 </ScrollView>

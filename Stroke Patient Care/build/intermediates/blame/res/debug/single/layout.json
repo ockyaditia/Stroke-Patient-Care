@@ -84,6 +84,10 @@
         "source": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\layout\\activity_check_condition_result.xml",
+        "source": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\layout\\activity_check_condition_result.xml"
+    },
+    {
         "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\Hp\\.android\\build-cache\\0be46e02345535224bb3ba03152414e07c38ebbc\\output\\res\\layout\\design_menu_item_action_area.xml"
     },

@@ -20,6 +20,35 @@
         android:textSize="18sp" />
 
     <RadioGroup
+        android:id="@+id/merokok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/condition1_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/condition1_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/emmergency_word17"
+        android:textColor="@color/logo_color"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/alkohol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp">
@@ -35,30 +64,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="No" />
-
-    </RadioGroup>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:text="@string/emmergency_word17"
-        android:textColor="@color/logo_color"
-        android:textSize="18sp" />
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp">
-        <RadioButton
-            android:id="@+id/condition"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Yes"/>
-        <RadioButton
-            android:id="@+id/check_condition"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="No"/>
 
     </RadioGroup>
 

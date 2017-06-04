@@ -94,14 +94,16 @@
         <activity android:name=".activity.PerubahanSifatActivity" />
         <activity
             android:name=".activity.MedicationDataActivity"
-            android:label="@string/medication_word7"></activity>
+            android:label="@string/medication_word7" />
 
-
-        <service android:name=".activity.MyAlarmService"
+        <service
+            android:name=".activity.MyAlarmService"
             android:enabled="true" />
 
-        <receiver android:name=".activity.MyReceiver"/>
+        <receiver android:name=".activity.MyReceiver" />
 
+        <activity android:name=".activity.CheckConditionResultActivity"
+            android:label="@string/emergency_word31"></activity>
     </application>
 
 </manifest>
