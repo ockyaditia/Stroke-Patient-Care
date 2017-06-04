@@ -1,4 +1,4 @@
-#Sun Jun 04 14:45:48 ICT 2017
+#Sun Jun 04 19:14:53 ICT 2017
 base.0=H\:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
 renamed.0=classes.dex
 file.0=H\:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex

@@ -24,6 +24,10 @@ import android.widget.GridView;
 import com.yarsi.skripsi.R;
 import com.yarsi.skripsi.app.AppConfig;
 import com.yarsi.skripsi.helper.SQLiteHandler;
+import com.yarsi.skripsi.other.GridViewAdapter;
+import com.yarsi.skripsi.other.ImageItem;
+import com.yarsi.skripsi.other.JSONParser;
+import com.yarsi.skripsi.other.MyReceiver;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
@@ -36,7 +40,6 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 

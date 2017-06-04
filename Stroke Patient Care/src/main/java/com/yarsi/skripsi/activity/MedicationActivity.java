@@ -1,7 +1,6 @@
 package com.yarsi.skripsi.activity;
 
 import android.Manifest;
-import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.app.ProgressDialog;
@@ -16,7 +15,6 @@ import android.os.Build;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -24,7 +22,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -37,6 +34,7 @@ import com.yarsi.skripsi.app.AppConfig;
 import com.yarsi.skripsi.app.AppController;
 import com.yarsi.skripsi.helper.SQLiteHandler;
 import com.yarsi.skripsi.helper.SessionManager;
+import com.yarsi.skripsi.other.MyReceiver;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -50,8 +48,6 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 import java.util.TimeZone;
-
-import static android.provider.MediaStore.Files.FileColumns.MEDIA_TYPE_VIDEO;
 
 public class MedicationActivity extends AppCompatActivity {
 

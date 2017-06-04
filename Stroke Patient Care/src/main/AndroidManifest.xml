@@ -97,13 +97,15 @@
             android:label="@string/medication_word7" />
 
         <service
-            android:name=".activity.MyAlarmService"
+            android:name=".other.MyAlarmService"
             android:enabled="true" />
 
-        <receiver android:name=".activity.MyReceiver" />
+        <receiver android:name=".other.MyReceiver" />
 
-        <activity android:name=".activity.CheckConditionResultActivity"
-            android:label="@string/emergency_word31"></activity>
+        <activity
+            android:name=".activity.CheckConditionResultActivity"
+            android:label="@string/emergency_word31" />
+        <activity android:name=".activity.FASTResultActivity"></activity>
     </application>
 
 </manifest>

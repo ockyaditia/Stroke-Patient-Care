@@ -35,6 +35,8 @@ public class FAST4Activity extends AppCompatActivity {
     }
 
     public void confirmButton(View view) {
-
+        Intent i = new Intent(getApplicationContext(),
+                FASTResultActivity.class);
+        startActivity(i);
     }
 }

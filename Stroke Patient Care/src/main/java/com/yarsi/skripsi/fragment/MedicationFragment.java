@@ -1,46 +1,17 @@
 package com.yarsi.skripsi.fragment;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.StrictMode;
-import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.Button;
-import android.widget.GridView;
 
 import com.yarsi.skripsi.R;
-import com.yarsi.skripsi.activity.GridViewAdapter;
-import com.yarsi.skripsi.activity.ImageItem;
-import com.yarsi.skripsi.activity.JSONParser;
 import com.yarsi.skripsi.activity.MedicationDataActivity;
-import com.yarsi.skripsi.app.AppConfig;
-import com.yarsi.skripsi.helper.SQLiteHandler;
-
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.File;
-import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.

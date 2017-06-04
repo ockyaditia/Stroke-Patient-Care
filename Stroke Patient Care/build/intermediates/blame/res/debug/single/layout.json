@@ -252,6 +252,10 @@
         "source": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fast_result.xml",
+        "source": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\src\\main\\res\\layout\\activity_fast_result.xml"
+    },
+    {
         "merged": "H:\\workspace_android_studio\\Stroke-Patient-Care\\Stroke Patient Care\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "C:\\Users\\Hp\\.android\\build-cache\\34f9123decb24aafd7242cc9d100e3de66aa5b03\\output\\res\\layout\\notification_media_cancel_action.xml"
     },

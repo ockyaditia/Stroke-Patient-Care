@@ -97,14 +97,15 @@
             android:label="@string/medication_word7" />
 
         <service
-            android:name="com.yarsi.skripsi.activity.MyAlarmService"
+            android:name="com.yarsi.skripsi.other.MyAlarmService"
             android:enabled="true" />
 
-        <receiver android:name="com.yarsi.skripsi.activity.MyReceiver" />
+        <receiver android:name="com.yarsi.skripsi.other.MyReceiver" />
 
         <activity
             android:name="com.yarsi.skripsi.activity.CheckConditionResultActivity"
             android:label="@string/emergency_word31" />
+        <activity android:name="com.yarsi.skripsi.activity.FASTResultActivity" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

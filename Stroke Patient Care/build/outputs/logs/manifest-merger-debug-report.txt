@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:2:1-109:12
+ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:2:1-111:12
 	package
 		ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml
@@ -77,7 +77,7 @@ ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\s
 	android:name
 		ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:22:9-47
 application
-ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:25:5-107:19
+ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:25:5-109:19
 MERGED from [com.android.support:design:23.4.0] C:\Users\Hp\.android\build-cache\0be46e02345535224bb3ba03152414e07c38ebbc\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Hp\.android\build-cache\34f9123decb24aafd7242cc9d100e3de66aa5b03\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Hp\.android\build-cache\8e6c9665436bdf501eaf241c72e57188b1cfb009\output\AndroidManifest.xml:7:5-20
@@ -240,19 +240,23 @@ ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\s
 		ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:97:13-53
 	android:name
 		ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:96:13-60
-service#com.yarsi.skripsi.activity.MyAlarmService
+service#com.yarsi.skripsi.other.MyAlarmService
 ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:99:9-101:38
 	android:enabled
 		ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:101:13-35
 	android:name
-		ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:100:13-52
-receiver#com.yarsi.skripsi.activity.MyReceiver
-ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:103:9-57
+		ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:100:13-49
+receiver#com.yarsi.skripsi.other.MyReceiver
+ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:103:9-54
 	android:name
-		ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:103:19-54
+		ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:103:19-51
 activity#com.yarsi.skripsi.activity.CheckConditionResultActivity
-ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:105:9-106:65
+ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:105:9-107:56
 	android:label
-		ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:106:13-53
+		ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:107:13-53
 	android:name
-		ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:105:19-72
+		ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:106:13-66
+activity#com.yarsi.skripsi.activity.FASTResultActivity
+ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:108:9-74
+	android:name
+		ADDED from H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\src\main\AndroidManifest.xml:108:19-62

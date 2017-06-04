@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="a733a9b229035eb130c19903f20db999a4f03c21">
+        sha1="f5f0796c46082e3e02c89a122b733ae09fb012fc">
         <dex dex="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6f39f40ad4349d2db7287520bd7c3d7c37125062\classes.dex" />
     </item>
     <item
@@ -27,6 +27,15 @@
         revision="25.0.0"
         sha1="fe4b50d0b8af44fce7a238fe146c7a3957074aa5">
         <dex dex="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\transforms\dex\debug\folders\1000\2\volley_3bd1bac7d968f61e504967b3607dc58343c50779\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\libs\MPAndroidChart-v2.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b036abbb61656165da99cf44898e4b9123687e65">
+        <dex dex="H:\workspace_android_studio\Stroke-Patient-Care\Stroke Patient Care\build\intermediates\transforms\dex\debug\folders\1000\2\MPAndroidChart-v2.1.6_df7d7aec3ae1697d5ccf532d1704d16ef52c33be\classes.dex" />
     </item>
     <item
         is-multidex="true"
